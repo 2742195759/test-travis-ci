@@ -1,0 +1,9 @@
+language: python
+python:
+- '3.8'
+os: linux
+dist: bionic
+arch: arm64
+env: 
+- CMD=python
+script: $CMD test.py
